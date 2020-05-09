@@ -4,11 +4,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["basketbal", "football", "soccer", "hockey"]
+ sports=["basketbal", "football", "soccer", "hockey"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  sports << ['baseball']
 end
 
 def add_element_to_start_of_array(array, element)
